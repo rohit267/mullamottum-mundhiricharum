@@ -19,7 +19,7 @@
         </div>
         </header>
         <section>
-          <form class="text-gray-600 body-font relative" action="index.php" method="POST">
+          <form class="text-gray-600 body-font relative" action="https://formspree.io/f/xgerykwo" method="POST">
           <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col text-center w-full mb-12">
               <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
@@ -39,6 +39,12 @@
                     <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                   </div>
                 </div>
+                <div class="p-2 w-1/2">
+                  <div class="relative">
+                    <label for="subject" class="leading-7 text-sm text-gray-600">Subject</label>
+                    <input type="subject" id="subject" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                </div>
                 <div class="p-2 w-full">
                   <div class="relative">
                     <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
@@ -46,8 +52,8 @@
                   </div>
                 </div>
                 <div class="p-2 w-full">
-                  <input type="submit" class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" placeholder="SUBMIT">
-                  <p id="status"></p>
+                  <input id="sendBtn" name="submit" type="submit" class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" value="Send">
+                  
                     
                   
                 </div>
