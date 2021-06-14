@@ -1,12 +1,12 @@
 <?php
 
 
-  require 'phpmailer/Exception.php';
-  require 'phpmailer/PHPMailer.php';
-  require 'phpmailer/SMTP.php';
+  require 'vendor/phpmailer/phpmailer/src/Exception.php';
+  require 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
+  require 'vendor/phpmailer/phpmailer/src/SMTP.php';
 
   // Include autoload.php file
-  require 'phpmailer/PHPMailerAutoload.php';
+  require 'vendor/autoload.php';
   // Create object of PHPMailer class
   $mail = new PHPMailer(true);
 
